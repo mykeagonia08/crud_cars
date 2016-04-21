@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+    border: 1px solid red;
+    display: block;
+    background-color: #c5d5cb;
+}
+body > * {
+    margin: auto;
+    width: 350px;
+    border: 1px solid blue;
+    display: block;
+    overflow: auto;
+}
+body > script {
+    display: none
+}
+p {
+    align: center;
+    background: #e7e7e7;
+}
+form {
+    width: 350px;
+    align: center;
+}
+table {
+    margin: auto;
+}
